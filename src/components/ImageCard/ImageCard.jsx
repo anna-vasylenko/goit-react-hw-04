@@ -2,7 +2,7 @@ import s from "./ImageCard.module.css";
 
 const ImageCard = ({ description, urls }) => {
   return (
-    <div>
+    <div className={s.imageWrapper}>
       <img src={urls.small} alt={description} />
     </div>
   );

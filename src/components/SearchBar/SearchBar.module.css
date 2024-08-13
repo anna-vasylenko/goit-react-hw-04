@@ -1,0 +1,40 @@
+.formWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-purple);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.form {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  position: relative;
+  & input {
+    padding-left: 40px;
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: var(--shadow);
+    outline: none;
+    transition: var(--animation-cubicBezier);
+    &:hover {
+      border: 1px solid var(--color-dark-purple);
+    }
+  }
+  & button {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: var(--animation-cubicBezier);
+    &:hover {
+      color: var(--color-dark-purple);
+    }
+  }
+}

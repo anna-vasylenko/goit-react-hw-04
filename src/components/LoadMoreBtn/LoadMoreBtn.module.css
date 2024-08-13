@@ -1,0 +1,18 @@
+.btnShowMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: var(--color-dark-purple);
+  color: white;
+  box-shadow: var(--shadow);
+  border: none;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  transition: var(--animation-cubicBezier);
+  &:hover {
+    background-color: var(--color-purple);
+  }
+}
