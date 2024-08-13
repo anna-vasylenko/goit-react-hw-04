@@ -23,7 +23,8 @@
     box-shadow: var(--shadow);
     outline: none;
     transition: var(--animation-cubicBezier);
-    &:hover {
+    &:hover,
+    &:focus {
       border: 1px solid var(--color-dark-purple);
     }
   }
